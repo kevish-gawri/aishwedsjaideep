@@ -32,7 +32,7 @@ module.exports = {
     host: 'localhost',
     allowedHosts: 'all',
     // public: 'localhost:8080', // force to open localhost instead of 0.0.0.0
-    open: true, // open the default browser
+    open: false, // open the default browser
     hot: true,
     historyApiFallback: true, // serve index.html instead of routes leading to no specific ressource
     proxy: {
